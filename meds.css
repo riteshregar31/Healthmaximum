@@ -1,0 +1,72 @@
+body{
+    background-color: #f7f3f3;
+  }
+  .form{
+      text-align: center;
+     width: 100%;
+     padding-right: 20px;
+  }
+  .h{
+      text-align: center;
+      color: black;
+  }
+  input[type=submit] {
+      width: 50%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      padding-left: 30px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer; border: 1px solid #ccc;
+    }
+    input[type=text] {
+      width: 50%;
+      background-color: #eaf3ea;
+      color: rgb(14, 13, 13);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+    }
+    input[type=email] {
+      width: 50%;
+      background-color: #eaf3ea;
+      color: rgb(14, 13, 13);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+    }
+    input[type=number] {
+      width: 50%;
+      background-color: #eaf3ea;
+      color: rgb(14, 13, 13);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      display: inline-block;
+      
+    }
+    a{
+      border: 1px solid#007bff;
+      background: #007bff;
+      padding: 10px;
+      padding-top: 5px;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    a:hover{
+      background: white;
+      color: #007bff;
+    }
+    

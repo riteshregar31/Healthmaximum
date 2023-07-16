@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(210, 248, 248);
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .form{
+    text-align: center;
+   width: 100%;
+}
+  input[type=text] {
+    width: 50%;
+    background-color: #d9f6d9;
+    border-color: 1px solid black;
+    color: rgb(14, 13, 13);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  a{
+    border: 1px solid#007bff;
+    background: #007bff;
+    padding: 10px;
+    padding-top: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  a:hover{
+    background: white;
+    color: #007bff;
+  }
